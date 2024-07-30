@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae1"
+  },
+  "flight_id": "6E 2341",
+  "airline": "Indigo",
+  "status": "On Time",
+  "departure_gate": "A12",
+  "arrival_gate": "B7",
+  "scheduled_departure": {
+    "$date": "2024-07-26T14:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-26T18:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae2"
+  },
+  "flight_id": "6E 2342",
+  "airline": "Indigo",
+  "status": "Delayed",
+  "departure_gate": "C3",
+  "arrival_gate": "D4",
+  "scheduled_departure": {
+    "$date": "2024-07-26T16:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-26T20:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae3"
+  },
+  "flight_id": "6E 2343",
+  "airline": "Indigo",
+  "status": "Cancelled",
+  "departure_gate": "E2",
+  "arrival_gate": "F1",
+  "scheduled_departure": {
+    "$date": "2024-07-26T12:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-26T16:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae4"
+  },
+  "flight_id": "AI 101",
+  "airline": "Air India",
+  "status": "On Time",
+  "departure_gate": "G1",
+  "arrival_gate": "H3",
+  "scheduled_departure": {
+    "$date": "2024-07-27T10:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-27T14:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae5"
+  },
+  "flight_id": "AI 102",
+  "airline": "Air India",
+  "status": "Delayed",
+  "departure_gate": "I2",
+  "arrival_gate": "J4",
+  "scheduled_departure": {
+    "$date": "2024-07-27T15:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-27T19:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae6"
+  },
+  "flight_id": "SG 303",
+  "airline": "SpiceJet",
+  "status": "On Time",
+  "departure_gate": "K5",
+  "arrival_gate": "L6",
+  "scheduled_departure": {
+    "$date": "2024-07-28T09:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-28T13:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae7"
+  },
+  "flight_id": "SG 304",
+  "airline": "SpiceJet",
+  "status": "Cancelled",
+  "departure_gate": "M1",
+  "arrival_gate": "N2",
+  "scheduled_departure": {
+    "$date": "2024-07-28T11:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-28T15:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae8"
+  },
+  "flight_id": "G8 505",
+  "airline": "GoAir",
+  "status": "On Time",
+  "departure_gate": "O3",
+  "arrival_gate": "P4",
+  "scheduled_departure": {
+    "$date": "2024-07-29T08:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-29T12:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+},
+{
+  "_id": {
+    "$oid": "66a77d065b6ce25379b98ae9"
+  },
+  "flight_id": "G8 506",
+  "airline": "GoAir",
+  "status": "Delayed",
+  "departure_gate": "Q5",
+  "arrival_gate": "R6",
+  "scheduled_departure": {
+    "$date": "2024-07-29T13:00:00Z"
+  },
+  "scheduled_arrival": {
+    "$date": "2024-07-29T17:00:00Z"
+  },
+  "actual_departure": null,
+  "actual_arrival": null
+}]

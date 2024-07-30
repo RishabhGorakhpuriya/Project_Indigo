@@ -1,0 +1,74 @@
+[
+    {
+        "notification_id": "1",
+        "flight_id": "6E 2341",
+        "message": "Your flight 6E 2341 is on time. Departure gate: A12.",
+        "timestamp": "2024-07-26T13:00:00Z",
+        "method": "SMS",
+        "recipient": "+1234567890"
+    },
+    {
+        "notification_id": "2",
+        "flight_id": "6E 2342",
+        "message": "Your flight 6E 2342 is delayed. New departure time: 2024-07-26T17:00:00Z. Departure gate: C3.",
+        "timestamp": "2024-07-26T15:30:00Z",
+        "method": "Email",
+        "recipient": "user@example.com"
+    },
+    {
+        "notification_id": "3",
+        "flight_id": "6E 2343",
+        "message": "Your flight 6E 2343 has been cancelled.",
+        "timestamp": "2024-07-26T11:00:00Z",
+        "method": "App",
+        "recipient": "user_app_id_12345"
+    },
+    {
+        "notification_id": "4",
+        "flight_id": "AI 101",
+        "message": "Your flight AI 101 is on time. Departure gate: G1.",
+        "timestamp": "2024-07-27T09:00:00Z",
+        "method": "SMS",
+        "recipient": "+0987654321"
+    },
+    {
+        "notification_id": "5",
+        "flight_id": "AI 102",
+        "message": "Your flight AI 102 is delayed. New departure time: 2024-07-27T16:00:00Z. Departure gate: I2.",
+        "timestamp": "2024-07-27T14:30:00Z",
+        "method": "Email",
+        "recipient": "anotheruser@example.com"
+    },
+    {
+        "notification_id": "6",
+        "flight_id": "SG 303",
+        "message": "Your flight SG 303 is on time. Departure gate: K5.",
+        "timestamp": "2024-07-28T08:00:00Z",
+        "method": "App",
+        "recipient": "user_app_id_54321"
+    },
+    {
+        "notification_id": "7",
+        "flight_id": "SG 304",
+        "message": "Your flight SG 304 has been cancelled.",
+        "timestamp": "2024-07-28T10:00:00Z",
+        "method": "SMS",
+        "recipient": "+1122334455"
+    },
+    {
+        "notification_id": "8",
+        "flight_id": "G8 505",
+        "message": "Your flight G8 505 is on time. Departure gate: O3.",
+        "timestamp": "2024-07-29T07:00:00Z",
+        "method": "Email",
+        "recipient": "emailuser@example.com"
+    },
+    {
+        "notification_id": "9",
+        "flight_id": "G8 506",
+        "message": "Your flight G8 506 is delayed. New departure time: 2024-07-29T14:00:00Z. Departure gate: Q5.",
+        "timestamp": "2024-07-29T12:30:00Z",
+        "method": "App",
+        "recipient": "user_app_id_67890"
+    }
+]

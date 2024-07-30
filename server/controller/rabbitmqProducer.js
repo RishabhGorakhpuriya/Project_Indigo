@@ -1,0 +1,23 @@
+const amqp = require('amqplib/callback_api');
+
+const sendMessage = (message) => {
+    amqp.connect('amqp://localhost', (error0, connection) => {
+        if (error0) {
+            throw error0;
+        }
+        connection.createChannel((error1, channel) => {
+            if (error1) {
+                throw error1;
+            }
+            const queue = 'flight_status_queue';
+            channel.assertQueue(queue, { durable: false });
+            channel.sendToQueue(queue, Buffer.from(message));
+            console.log('Message sent to RabbitMQ:', message);
+        });
+        setTimeout(() => {
+            connection.close();
+        }, 500);
+    });
+};
+
+module.exports =  sendMessage;
